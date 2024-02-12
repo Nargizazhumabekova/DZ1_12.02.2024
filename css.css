@@ -1,0 +1,36 @@
+//var table = 4;
+var count = 3;
+
+    for (var i = 0; i < count; i++) {
+        i++;
+        console.log(table, "X", i, "=", table * i);
+        --i;
+    }
+
+function sum(numbers) {
+            return numbers.reduce((total, number) => total + number, 0);
+        }
+
+        const numbers = [1, 2, 3, 4, 5,6,7,8,9,10,11,12,13,14,15];
+        const total = sum(numbers);
+
+        console.log("Array sum", total);
+
+
+
+
+// Array - массив
+var currentYear =2023.
+var birthYear=[2017,]
+let age = currentYear - birthYear;
+if ( currentYear < birthYear[age]) {
+  age++;
+}
+console.log('Мой возраст:', age);
+
+if (age >= 6)
+if (age >= 11) {
+console.log('Подарок не получит');
+} else {
+console.log('Подарок  получит');
+}//
